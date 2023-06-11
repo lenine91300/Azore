@@ -1,7 +1,127 @@
 const reponse = await fetch('donnee.json');
 const donneeRecu = await reponse.json();
 
+// const titrePrincipal = document.getElementById('titrePrincipal');
+//   titrePrincipal.innerText=donneeRecu[4].titrePrincipal;
 
+
+//   const titrePresentationFiliere= document.getElementById('titreFiliere');
+//   titrePresentationFiliere.innerText=donneeRecu[4].titrePresentationFiliere;
+
+//   const textePresentationFiliere = document.getElementById('textPresentation');
+//   textePresentationFiliere.innerText = donneeRecu[4].textePresentationFiliere;
+  
+
+//   const titreSpecialisations = document.getElementById('titreSpecialisations');
+//   titreSpecialisations.innerText=donneeRecu[4].titreSpecialisations;
+  
+//   const titreCompetences = document.getElementById('titreCompetences');
+//   titreCompetences.innerText = donneeRecu[4].titreCompetences;
+
+//   const titreDebouchesProfessionnels = document.getElementById('titreDebouchesProfessionnels');
+//   titreDebouchesProfessionnels.innerText=donneeRecu[4].titreDebouchesProfessionnels;
+
+//   const titrePoursuiteEtudes = document.getElementById('titrePoursuiteEtudes');
+//   titrePoursuiteEtudes.innerText=donneeRecu[4].titrePoursuiteEtudes;
+
+
+//   const optionPopose = document.getElementById('optionPoposeList');
+//   optionPopose.innerHTML = ''; // Réinitialiser le contenu de la liste
+  
+//   donneeRecu[7].optionPropose.forEach(function(afficher){
+//     const afficherLi = document.createElement('li');
+//     afficherLi.innerText = afficher;
+//     optionPopose.appendChild(afficherLi);
+//   });
+  
+
+//   const competanceList = document.getElementById('competanceList');
+//   competanceList.innerHTML='';
+//   const competences = donneeRecu[5].competencesBtsSIO;
+  
+//   competences.forEach(function(competence) {
+//     const li = document.createElement('li');
+//     li.innerText = competence;
+//     competanceList.appendChild(li);
+//   });
+  
+//   const deboucheProfessionnelList = document.getElementById("deboucheProfessionnelList")
+//   deboucheProfessionnelList.innerHTML='';
+//   const deboucheProfessionnel = donneeRecu[6].deboucheProfessionnel;
+  
+//   deboucheProfessionnel.forEach(function(debouche){
+//     const liste = document.createElement('li');
+//     liste.innerText = debouche;
+//     deboucheProfessionnelList.appendChild(liste);
+//   });
+  
+//   const textePoursuiteEtude = document.getElementById('textePoursuiteEtude');
+//   textePoursuiteEtude.innerText=donneeRecu[4].textePoursuiteEtude;
+
+
+// BTS SIO
+function afficherBtsSIO(){
+  
+  const titrePrincipal = document.getElementById('titrePrincipal');
+  titrePrincipal.innerText=donneeRecu[4].titrePrincipal;
+
+
+  const titrePresentationFiliere= document.getElementById('titreFiliere');
+  titrePresentationFiliere.innerText=donneeRecu[4].titrePresentationFiliere;
+
+  const textePresentationFiliere = document.getElementById('textPresentation');
+  textePresentationFiliere.innerText = donneeRecu[4].textePresentationFiliere;
+  
+
+  const titreSpecialisations = document.getElementById('titreSpecialisations');
+  titreSpecialisations.innerText=donneeRecu[4].titreSpecialisations;
+  
+  const titreCompetences = document.getElementById('titreCompetences');
+  titreCompetences.innerText = donneeRecu[4].titreCompetences;
+
+  const titreDebouchesProfessionnels = document.getElementById('titreDebouchesProfessionnels');
+  titreDebouchesProfessionnels.innerText=donneeRecu[4].titreDebouchesProfessionnels;
+
+  const titrePoursuiteEtudes = document.getElementById('titrePoursuiteEtudes');
+  titrePoursuiteEtudes.innerText=donneeRecu[4].titrePoursuiteEtudes;
+
+
+  const optionPopose = document.getElementById('optionPoposeList');
+  optionPopose.innerHTML = ''; // Réinitialiser le contenu de la liste
+  
+  donneeRecu[7].optionPropose.forEach(function(afficher){
+    const afficherLi = document.createElement('li');
+    afficherLi.innerText = afficher;
+    optionPopose.appendChild(afficherLi);
+  });
+  
+
+  const competanceList = document.getElementById('competanceList');
+  competanceList.innerHTML='';
+  const competences = donneeRecu[5].competencesBtsSIO;
+  
+  competences.forEach(function(competence) {
+    const li = document.createElement('li');
+    li.innerText = competence;
+    competanceList.appendChild(li);
+  });
+  
+  const deboucheProfessionnelList = document.getElementById("deboucheProfessionnelList")
+  deboucheProfessionnelList.innerHTML='';
+  const deboucheProfessionnel = donneeRecu[6].deboucheProfessionnel;
+  
+  deboucheProfessionnel.forEach(function(debouche){
+    const liste = document.createElement('li');
+    liste.innerText = debouche;
+    deboucheProfessionnelList.appendChild(liste);
+  });
+  
+  const textePoursuiteEtude = document.getElementById('textePoursuiteEtude');
+  textePoursuiteEtude.innerText=donneeRecu[4].textePoursuiteEtude;
+}
+
+const boutonBtsSIO = document.getElementById('btnSIO');
+boutonBtsSIO.addEventListener('click',afficherBtsSIO)
 // ----------------------BTS
 
 // BTS SN
@@ -69,69 +189,6 @@ function afficherBtsSN(){
 const boutonBtsSN = document.getElementById('btnSN');
 boutonBtsSN.addEventListener('click',afficherBtsSN)
 
-// BTS SIO
-function afficherBtsSIO(){
-  
-  const titrePrincipal = document.getElementById('titrePrincipal');
-  titrePrincipal.innerText=donneeRecu[4].titrePrincipal;
-
-
-  const titrePresentationFiliere= document.getElementById('titreFiliere');
-  titrePresentationFiliere.innerText=donneeRecu[4].titrePresentationFiliere;
-
-  const textePresentationFiliere = document.getElementById('textPresentation');
-  textePresentationFiliere.innerText = donneeRecu[4].textePresentationFiliere;
-  
-
-  const titreSpecialisations = document.getElementById('titreSpecialisations');
-  titreSpecialisations.innerText=donneeRecu[4].titreSpecialisations;
-  
-  const titreCompetences = document.getElementById('titreCompetences');
-  titreCompetences.innerText = donneeRecu[4].titreCompetences;
-
-  const titreDebouchesProfessionnels = document.getElementById('titreDebouchesProfessionnels');
-  titreDebouchesProfessionnels.innerText=donneeRecu[4].titreDebouchesProfessionnels;
-
-  const titrePoursuiteEtudes = document.getElementById('titrePoursuiteEtudes');
-  titrePoursuiteEtudes.innerText=donneeRecu[4].titrePoursuiteEtudes;
-
-
-  const optionPopose = document.getElementById('optionPoposeList');
-  optionPopose.innerHTML = ''; // Réinitialiser le contenu de la liste
-  
-  donneeRecu[7].optionPropose.forEach(function(afficher){
-    const afficherLi = document.createElement('li');
-    afficherLi.innerText = afficher;
-    optionPopose.appendChild(afficherLi);
-  });
-  
-
-  const competanceList = document.getElementById('competanceList');
-  competanceList.innerHTML='';
-  const competences = donneeRecu[5].competencesBtsSIO;
-  
-  competences.forEach(function(competence) {
-    const li = document.createElement('li');
-    li.innerText = competence;
-    competanceList.appendChild(li);
-  });
-  
-  const deboucheProfessionnelList = document.getElementById("deboucheProfessionnelList")
-  deboucheProfessionnelList.innerHTML='';
-  const deboucheProfessionnel = donneeRecu[6].deboucheProfessionnel;
-  
-  deboucheProfessionnel.forEach(function(debouche){
-    const liste = document.createElement('li');
-    liste.innerText = debouche;
-    deboucheProfessionnelList.appendChild(liste);
-  });
-  
-  const textePoursuiteEtude = document.getElementById('textePoursuiteEtude');
-  textePoursuiteEtude.innerText=donneeRecu[4].textePoursuiteEtude;
-}
-
-const boutonBtsSIO = document.getElementById('btnSIO');
-boutonBtsSIO.addEventListener('click',afficherBtsSIO)
 
 
 
@@ -287,7 +344,7 @@ function afficherBtsSystemePhotonique(){
   titreCompetences.innerText = donneeRecu[16].titreCompetences;
 
   const titreDebouchesProfessionnels = document.getElementById('titreDebouchesProfessionnels');
-  titreDebouchesProfessionnels.innerText=donneeRecu[16].titreDebouchesProfessionnels;
+  titreDebouchesProfessionnels.innerText=donneeRecu[16].titreDebouchesProfessionne;
 
   const titrePoursuiteEtudes = document.getElementById('titrePoursuiteEtudes');
   titrePoursuiteEtudes.innerText=donneeRecu[16].titrePoursuiteEtudes;

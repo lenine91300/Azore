@@ -1,11 +1,95 @@
-main{
-    display: flex;
+body{
+    margin: 0px auto;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
+/* Header */
+head p, h2{
+    font-family: 'inherit','Roboto', sans-serif;
+    text-align: justify; 
+}
+h1{
+    font-family: 'inherit','Roboto', sans-serif;
+    text-align: center;
+}
+head h1{
+    margin-top: 0px;
+}
+
+/* Bare de navigation  */
 #SectionNav{
-   border: 1px solid #000;
-   padding: 5px; 
+    border: 1px solid #000;
+    padding: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/Images/stock-photo-computer-blue-binary-code-background.jpg);
+    background-position:center ;
+ }
+
+#SectionNav nav h2{
+    justify-content: center;
 }
 
+p{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+nav h2{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+nav h2{
+    display: flex;
+    text-align: center;
+}
+
+#SectionNav nav button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px #bababa solid;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #888888;
+}
+
+/* Contenue  */
+#titrePrincipal{
+    text-align: center;
+}
+ul li{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: justify;
+}
+
+h3{
+    font-family: 'inherit','Roboto', sans-serif;
+}
+
+#information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Ajustez cette valeur en fonction de la taille de votre paragraphe */
+    text-align: center;
+    font-style: italic;
+  }
+  
+/* #sectionContenue{
+    padding-right: 5%;
+    padding-left: 5%;
+} */
 
 
+
+
+/* responsive */
+
+/* @media screen and (max-width: 700px) {
+    body{
+        background-color: red;
+    }
+} */
