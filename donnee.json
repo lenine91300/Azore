@@ -1,0 +1,33 @@
+[
+    {
+        "id":"bts-sn",
+        "titrePrincipal":"BTS SN (Système Numérique)",
+        "titrePresentationFiliere":"Présentation du BTS SN :",
+        "textePresentationFiliere":"Le BTS Systèmes Numériques est une formation de niveau bac+2 qui forme des professionnels polyvalents dans les domaines des systèmes électroniques, des systèmes informatiques et des réseaux de communication. Ce programme met l'accent sur le développement, la maintenance et la gestion des systèmes numériques.",
+        "titreOptionBts":"Le BTS SN se divise en deux options principales",
+        "textePoursuiteEtude":"Le BTS SN permet également aux étudiants de poursuivre leurs études, notamment en intégrant une licence professionnelle en électronique, en informatique ou en télécommunications, en préparant un bachelor ou en poursuivant vers un cursus d'ingénieur dans le domaine des systèmes numériques."
+
+
+    },
+    {
+        "competencesBtsSn": [
+            "Analyse des besoins : Les étudiants apprennent à comprendre les besoins des utilisateurs et des organisations en matière de services informatiques.",
+            "Développement d'applications : Les étudiants acquièrent des compétences en programmation dans divers langages (Java, C#, etc.) pour créer des applications adaptées aux besoins des clients.",
+            "Gestion des bases de données : Les étudiants se familiarisent avec la conception et la gestion de bases de données, en utilisant des outils tels que SQL pour stocker et manipuler les données.",
+            "Administration des systèmes : Les étudiants apprennent à configurer et à gérer des infrastructures informatiques, y compris les serveurs, les réseaux et les systèmes d'exploitation.",
+            "Sécurité informatique : Les étudiants sont sensibilisés aux aspects de la sécurité informatique et aux mesures à prendre pour protéger les données et les systèmes."
+        ]
+    },
+    {
+        "deboucheProfessionnel":[
+            "Administrateur système",
+            "Développeur d'applications",
+            "Technicien de maintenance informatique",
+            "Analyste-programmeur",
+            "Consultant en informatique",
+            "Responsable de la sécurité informatique"
+        ]
+            
+    }
+
+]
