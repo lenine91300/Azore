@@ -5,12 +5,52 @@
         "titrePresentationFiliere":"Présentation du BTS SN :",
         "textePresentationFiliere":"Le BTS Systèmes Numériques est une formation de niveau bac+2 qui forme des professionnels polyvalents dans les domaines des systèmes électroniques, des systèmes informatiques et des réseaux de communication. Ce programme met l'accent sur le développement, la maintenance et la gestion des systèmes numériques.",
         "titreOptionBts":"Le BTS SN se divise en deux options principales",
-        "textePoursuiteEtude":"Le BTS SN permet également aux étudiants de poursuivre leurs études, notamment en intégrant une licence professionnelle en électronique, en informatique ou en télécommunications, en préparant un bachelor ou en poursuivant vers un cursus d'ingénieur dans le domaine des systèmes numériques."
-
-
+        "textePoursuiteEtude":"Le BTS SN permet également aux étudiants de poursuivre leurs études, notamment en intégrant une licence professionnelle en électronique, en informatique ou en télécommunications, en préparant un bachelor ou en poursuivant vers un cursus d'ingénieur dans le domaine des systèmes numériques.",
+        "titreSpecialisations":"Spécialisations :",
+        "titreCompetences":"Compétances développées :",
+        "titreDebouchesProfessionnels":"Débouchés professionnels :",
+        "titrePoursuiteEtudes":"Poursuite d'études :"
     },
     {
         "competencesBtsSn": [
+            "conception developpement systemes electroniques : Les étudiants apprennent à concevoir des circuits électroniques, à réaliser des montages, à effectuer des mesures et à diagnostiquer des pannes.",
+            "programmation developpement applications : Les étudiants acquièrent des compétences en programmation dans différents langages : C, C++, Java, etc. et apprennent à développer des applications pour des systèmes embarqués ou des ordinateurs.",
+            "configuration reseaux : Les étudiants se familiarisent avec la configuration des réseaux informatiques, la gestion des équipements réseau et la mise en place de protocoles de communication.",
+            "gestion bases de donnees : Les étudiants apprennent à concevoir et à gérer des bases de données, à manipuler des données et à utiliser des langages de requêtes (SQL).",
+            "maintenance depannage : Les étudiants sont formés à la maintenance et au dépannage des systèmes électroniques, des réseaux et des applications informatiques."
+        ]
+    },
+    {
+        "deboucheProfessionnel":[
+            "Technicien de maintenance informatique : Vous pouvez travailler en tant que technicien de maintenance informatique, en assurant la maintenance préventive et corrective des équipements informatiques dans les entreprises. Vous serez responsable de la résolution des problèmes matériels et logiciels, de l'installation de nouveaux équipements et de l'assistance aux utilisateurs.",
+            "Administrateur système et réseau : Vous pouvez occuper un poste d'administrateur système et réseau, en gérant et en surveillant les infrastructures informatiques des entreprises. Vous serez responsable de la configuration, de la sécurité et de la maintenance des serveurs, des réseaux et des systèmes d'exploitation.",
+            "Développeur web ou d'applications : Vous pouvez travailler en tant que développeur web ou d'applications, en concevant, développant et testant des sites web ou des applications logicielles. Vous utiliserez des langages de programmation et des frameworks pour créer des solutions adaptées aux besoins des clients.",
+            "Technicien en télécommunications : Vous pouvez vous spécialiser dans les télécommunications, en travaillant sur l'installation, la configuration et la maintenance des équipements de communication (réseaux téléphoniques, équipements de transmission de données, etc.). Vous serez responsable de garantir la connectivité et la disponibilité des services de communication.",
+            "Technicien en systèmes embarqués : Vous pouvez travailler dans le domaine des systèmes embarqués, en concevant, développant et testant des logiciels pour des dispositifs électroniques intégrés. Vous pourrez être impliqué dans des projets liés à l'Internet des objets (IoT) et à l'automatisation des systèmes.",
+            "Technico-commercial en informatique : Avec des compétences techniques et une connaissance approfondie des produits informatiques, vous pouvez travailler en tant que technico-commercial, en conseillant les clients sur les solutions informatiques adaptées à leurs besoins. Vous serez responsable de la gestion des ventes, de la négociation des contrats et de la fidélisation des clients."            
+        ]
+            
+    },
+    {
+        "optionPropose":[
+            "Option A : Électronique et Communication (EC) : Cette option se concentre sur les systèmes électroniques, la transmission de l'information, les réseaux et les télécommunications. Les étudiants apprennent à concevoir et à réaliser des montages électroniques, à configurer des réseaux, à diagnostiquer des pannes et à assurer la maintenance des équipements.",
+            "Option B : Informatique et Réseaux (IR) : Cette option met l'accent sur les technologies de l'information, les réseaux informatiques, le développement d'applications et la sécurité informatique. Les étudiants acquièrent des compétences en programmation, en administration de réseaux, en gestion de bases de données et en cybersécurité."
+        ]
+    },
+    {
+        "id":"bts-sio",
+        "titrePrincipal":"BTS SIO (Services informatiques aux organisations)",
+        "titrePresentationFiliere":"Présentation du BTS SIO :",
+        "textePresentationFiliere":"Le BTS SIO est une formation de niveau bac+2 axée sur les services informatiques fournis aux organisations. Ce programme vise à former des professionnels capables de répondre aux besoins des entreprises en matière de développement, de maintenance et de gestion des systèmes informatiques.",
+        "titreOptionBts":"Le BTS SIO propose deux spécialisations :",
+        "textePoursuiteEtude":"Le BTS SIO permet également aux étudiants de poursuivre leurs études, notamment en intégrant une licence professionnelle en informatique, en préparant un bachelor ou en poursuivant vers un cursus d'ingénieur en informatique.",
+        "titreSpecialisations":"Spécialisations :",
+        "titreCompetences":"Compétances développées :",
+        "titreDebouchesProfessionnels":"Débouchés professionnels :",
+        "titrePoursuiteEtudes":"Poursuite d'études :"
+    },
+    {
+        "competencesBtsSIO": [
             "Analyse des besoins : Les étudiants apprennent à comprendre les besoins des utilisateurs et des organisations en matière de services informatiques.",
             "Développement d'applications : Les étudiants acquièrent des compétences en programmation dans divers langages (Java, C#, etc.) pour créer des applications adaptées aux besoins des clients.",
             "Gestion des bases de données : Les étudiants se familiarisent avec la conception et la gestion de bases de données, en utilisant des outils tels que SQL pour stocker et manipuler les données.",
@@ -20,14 +60,234 @@
     },
     {
         "deboucheProfessionnel":[
-            "Administrateur système",
-            "Développeur d'applications",
-            "Technicien de maintenance informatique",
-            "Analyste-programmeur",
-            "Consultant en informatique",
-            "Responsable de la sécurité informatique"
+            "Développeur d'applications : Vous pouvez travailler en tant que développeur d'applications informatiques, en concevant, développant et testant des logiciels et des applications pour répondre aux besoins spécifiques des organisations. Vous utiliserez différents langages de programmation et frameworks pour créer des solutions adaptées.",
+            "Administrateur de systèmes et réseaux : Vous pourrez occuper un poste d'administrateur de systèmes et réseaux, en assurant la maintenance, la configuration et la sécurité des infrastructures informatiques des organisations. Vous serez responsable de la gestion des serveurs, des réseaux et des systèmes d'exploitation.",
+            "Analyste-programmeur : Vous pouvez travailler en tant qu'analyste-programmeur, en étudiant les besoins des utilisateurs et en concevant des solutions informatiques adaptées. Vous serez responsable de l'analyse des spécifications, de la programmation et des tests pour assurer le bon fonctionnement des applications.",
+            "Responsable de la sécurité informatique : Vous pouvez vous spécialiser dans la sécurité informatique, en identifiant les vulnérabilités et en mettant en place des mesures de protection pour prévenir les cyberattaques. Vous serez chargé de surveiller les systèmes, d'effectuer des audits de sécurité et de mettre en œuvre des stratégies de sécurité appropriées.",
+            "Consultant en informatique : Vous pouvez travailler en tant que consultant en informatique, en fournissant des conseils et des recommandations aux organisations sur l'utilisation efficace des technologies de l'information. Vous serez chargé d'analyser les besoins, de proposer des solutions et d'accompagner les entreprises dans leurs projets informatiques.",
+            "Chef de projet informatique : Avec de l'expérience, vous pouvez évoluer vers un poste de chef de projet informatique, en coordonnant et en supervisant des équipes de développement, en assurant la planification, le suivi et la livraison réussie des projets informatiques."
+            
         ]
             
+    },
+    {
+        "optionPropose":[
+            "Option A : Solutions d'infrastructure, systèmes et réseaux (SISR) : Cette spécialisation met l'accent sur la conception, la configuration et la maintenance des infrastructures réseau et système. Les étudiants apprendront à installer et à sécuriser les équipements informatiques, à gérer les serveurs et à assurer le bon fonctionnement des réseaux",
+            "Option B : Solutions logicielles et applications métiers (SLAM) : Cette spécialisation se concentre sur le développement, la programmation et la gestion des logiciels et des applications métiers. Les étudiants apprendront à concevoir des applications, à programmer dans différents langages, à assurer la maintenance et à garantir la qualité des solutions logicielles."
+        ]
+    },
+    {
+        "id":"bts-FED",
+        "titrePrincipal":"BTS FED (Fluides, Énergies, Domotique)",
+        "titrePresentationFiliere":"Présentation du BTS FED :",
+        "textePresentationFiliere":"Le BTS Fluides, Énergies, Domotique est une formation de niveau bac+2 axée sur les domaines des installations techniques du bâtiment. Ce programme vise à former des professionnels spécialisés dans les systèmes de chauffage, de climatisation, de ventilation, de plomberie, d'énergies renouvelables et de domotique.",
+        "titreOptionBts":"Le BTS FED se concentre sur les aspects suivants :",
+        "textePoursuiteEtude":"Le BTS FED offre de nombreuses possibilités de poursuites d'études. Vous pouvez envisager d'intégrer une licence professionnelle spécialisée en électronique, informatique ou télécommunications. Vous avez également la possibilité de préparer un bachelor ou de poursuivre vers un cursus d'ingénieur dans le domaine des systèmes numériques. Ces choix vous permettront d'approfondir vos connaissances et de vous spécialiser davantage, ouvrir de nouvelles opportunités de carrière dans le secteur des installations techniques du bâtiment.",
+        "titreSpecialisations":"Spécialisations :",
+        "titreCompetences":"Compétances développées :",
+        "titreDebouchesProfessionnels":"Débouchés professionnels :",
+        "titrePoursuiteEtudes":"Poursuite d'études :"
+    },
+    {
+        "competencesBtsFED": [
+            "conception et dimensionnement des installations techniques : Les étudiants apprennent à réaliser des études techniques, à dimensionner les équipements et à choisir les matériaux adaptés aux installations fluides.",
+            "installation et mise en service des équipements : Les étudiants acquièrent des compétences pratiques en matière d'installation, de raccordement et de mise en service des équipements de chauffage, de climatisation, de ventilation et de plomberie.",
+            "maintenance et dépannage : Les étudiants sont formés à la maintenance préventive et corrective des installations techniques, ainsi qu'au diagnostic et à la résolution des problèmes techniques.",
+            "utilisation des énergies renouvelables : Les étudiants se familiarisent avec les technologies des énergies renouvelables et apprennent à les intégrer dans les installations techniques pour une utilisation plus durable et respectueuse de l'environnement.",
+            "programmation et gestion des systèmes domotiques : Les étudiants apprennent à programmer et à configurer des systèmes domotiques pour la gestion intelligente des équipements et des ressources dans les bâtiments."            
+        ]
+    },
+    {
+        "deboucheProfessionnel":[
+            "Technicien en génie climatique : Vous serez chargé de l'installation, de la maintenance et de la gestion des systèmes de chauffage, de climatisation et de ventilation dans les bâtiments. Vous travaillerez sur des projets de régulation thermique et de climatisation, en veillant à l'efficacité énergétique et au confort des utilisateurs.",
+            "Technicien en énergies renouvelables : Vous pourrez vous spécialiser dans l'installation, la maintenance et la gestion des systèmes utilisant des sources d'énergie renouvelable telles que l'énergie solaire, éolienne, géothermique, etc. Votre rôle consistera à promouvoir et à mettre en œuvre des solutions énergétiques durables et respectueuses de l'environnement.",
+            "Chargé de maintenance des installations techniques : Vous serez responsable de la maintenance préventive et corrective des installations techniques dans les bâtiments, y compris les systèmes de chauffage, de climatisation, de plomberie et de ventilation. Vous assurerez le bon fonctionnement et la sécurité des équipements, en effectuant des inspections régulières et en intervenant en cas de dysfonctionnement.",
+            "Responsable de projets fluides et énergies : Vous pourrez occuper un poste de gestionnaire de projets, supervisant la conception, la planification et l'exécution de projets liés aux installations techniques dans les bâtiments. Vous serez responsable de coordonner les différentes parties prenantes, d'établir les budgets, de suivre les délais et de garantir la qualité des réalisations.",
+            "Responsable de la conformité réglementaire : Vous pourrez travailler dans le domaine de la conformité réglementaire en veillant à ce que les installations techniques respectent les normes et les réglementations en vigueur. Vous serez chargé d'effectuer des audits, d'identifier les non-conformités et de proposer des solutions pour se conformer aux exigences légales."
+        ]
+            
+    },
+    {
+        "optionPropose":[
+            "Option A : Installations thermiques : Cette spécialité met l'accent sur les systèmes de chauffage, de climatisation et de ventilation. Les étudiants apprennent à concevoir, installer et entretenir des équipements de chauffage et de climatisation pour assurer le confort thermique des bâtiments.",
+            "Option B : Installations sanitaires : Cette spécialité se concentre sur les systèmes de plomberie et les installations sanitaires. Les étudiants apprennent à concevoir et à réaliser des réseaux de distribution d'eau, des installations sanitaires et des systèmes de récupération des eaux pluviales.",
+            "Option C : Énergies renouvelables : Cette spécialité aborde les technologies liées aux énergies renouvelables, telles que les panneaux solaires, les pompes à chaleur et les systèmes de récupération de chaleur. Les étudiants apprennent à concevoir, installer et entretenir des installations utilisant ces sources d'énergie alternatives.",
+            "Option D : Domotique : Cette spécialité se concentre sur les systèmes de gestion et de contrôle des équipements techniques dans les bâtiments. Les étudiants apprennent à mettre en place des solutions domotiques pour optimiser la gestion de l'énergie, la sécurité, le confort et la communication au sein des habitations et des bâtiments."  
+        ]
+    },    
+    {
+        "id":"bts-AudioVisuel",
+        "titrePrincipal":"BTS Audiovisuel",
+        "titrePresentationFiliere":"Présentation du BTS Audiovisuel :",
+        "textePresentationFiliere":"Le BTS Audiovisuel est une formation de niveau bac+2 qui forme des professionnels polyvalents dans le domaine de l'audiovisuel. Ce programme vise à développer les compétences techniques et artistiques nécessaires pour travailler dans les différents métiers de la production audiovisuelle.",
+        "titreOptionBts":"Le BTS Audiovisuel se divise en plusieurs options ou spécialités :",
+        "textePoursuiteEtude":"Le BTS Audiovisuel permet également aux étudiants de poursuivre leurs études, notamment en intégrant une licence professionnelle en audio",
+        "titreSpecialisations":"Spécialisations :",
+        "titreCompetences":"Compétances développées :",
+        "titreDebouchesProfessionnels":"Débouchés professionnels :",
+        "titrePoursuiteEtudes":"Poursuite d'études :"
+    },
+    {
+        "competencesBtsAudiovisuel": [
+            "Prise de vue et cadrage : Les étudiants apprennent les techniques de captation d'images, le cadrage, la composition visuelle et l'utilisation des caméras professionnelles.",
+            "Montage et post-production : Les étudiants acquièrent des compétences en montage vidéo, en étalonnage des couleurs, en création d'effets spéciaux et en intégration du son.",
+            "Prise et traitement du son : Les étudiants se familiarisent avec les techniques de prise de son, les équipements audio, le mixage, la sonorisation et le traitement du son.",
+            "Scénarisation et storytelling : Les étudiants apprennent à développer des scénarios, à créer une narration efficace et à raconter des histoires à travers l'audiovisuel.",
+            "Gestion de projet : Les étudiants sont formés à la planification, à l'organisation et à la gestion des projets audiovisuels, en tenant compte des contraintes de temps, de budget et de ressources."
+        ]
+    },
+    {
+        "deboucheProfessionnel":[
+            "Technicien audiovisuel : Vous pouvez travailler en tant que technicien audiovisuel, en assurant la prise de son, le montage audio, l'enregistrement et la diffusion des contenus audiovisuels. Vous serez responsable de l'installation et de la gestion des équipements audiovisuels lors de tournages ou d'événements.",
+            "Monteur vidéo : Vous pouvez vous spécialiser dans le montage vidéo, en utilisant des logiciels de montage pour assembler les séquences, ajuster les transitions, ajouter des effets spéciaux et créer des montages cohérents. Vous travaillerez sur des projets tels que des films, des publicités, des clips musicaux, des documentaires, etc.",
+            "Opérateur de prise de vue : Vous pouvez travailler en tant qu'opérateur de prise de vue, en manipulant les caméras et en capturant les images pour les productions audiovisuelles. Vous serez responsable du cadrage, de la composition et de la qualité visuelle des images.",
+            "Technicien lumière : Vous pouvez vous spécialiser dans l'éclairage, en concevant et en mettant en place l'éclairage approprié pour les productions audiovisuelles. Vous serez responsable de créer des ambiances lumineuses, d'ajuster les niveaux d'éclairage et de travailler en collaboration avec les autres membres de l'équipe technique.",
+            "Réalisateur : Avec de l'expérience, vous pourrez évoluer vers un poste de réalisateur, en supervisant la création artistique et la mise en scène des productions audiovisuelles. Vous serez responsable de la direction des acteurs, de la coordination des différentes équipes et de la réalisation de la vision créative du projet.",
+            "Responsable de production : Vous pouvez travailler en tant que responsable de production, en gérant les aspects logistiques, financiers et organisationnels des productions audiovisuelles. Vous serez responsable de la planification, de la coordination des équipes, de la gestion du budget et du respect des délais."
+        ]
+            
+    },
+    {
+        "optionPropose":[
+            "Option A : Métiers de l'image : Cette spécialité se concentre sur la captation, l'éclairage, la prise de vue et la post-production des images. Les étudiants apprennent à utiliser les caméras, les objectifs, les éclairages et les logiciels de montage pour créer des images de qualité professionnelle.",
+            "Option B : du son : Cette spécialité met l'accent sur l'enregistrement, le mixage et la post-production du son. Les étudiants apprennent à utiliser les équipements de prise de son, les consoles de mixage et les logiciels de traitement audio pour assurer une qualité sonore optimale.",
+            "Option C : et post-production : Cette spécialité se concentre sur le montage, l'étalonnage, les effets spéciaux et la post-production des contenus audiovisuels. Les étudiants apprennent à utiliser les logiciels de montage, de colorimétrie et d'effets spéciaux pour donner vie aux projets audiovisuels.",
+            "Option D : de production : Cette spécialité aborde les aspects de la planification, de l'organisation et de la gestion des projets audiovisuels. Les étudiants apprennent à coordonner les équipes, à gérer les budgets, à négocier avec les prestataires et à assurer le bon déroulement des productions."
+        ]
+    },    
+    {
+        "id":"bts-SystemePhotonique",
+        "titrePrincipal":"BTS Systèmes Photoniques",
+        "titrePresentationFiliere":"Présentation du BTS Systèmes Photoniques :",
+        "textePresentationFiliere":"Le BTS Systèmes Photoniques est une formation de niveau bac+2 qui vise à former des professionnels spécialisés dans le domaine des technologies optiques et photoniques. Ce programme met l'accent sur la conception, le développement et la maintenance des systèmes utilisant la lumière, tels que les dispositifs optiques, les lasers, les fibres optiques, les capteurs optiques, etc.",
+        "titreOptionBts":"Domaine d'étude :",
+        "textePoursuiteEtude":"Le BTS Systèmes Photoniques permet également aux étudiants de poursuivre leurs études, notamment en intégrant une licence professionnelle en optique, en photonique ou en télécommunications, en préparant un bachelor spécialisé dans les technologies optiques, ou en poursuivant vers un cursus d'ingénieur dans le domaine de l'optique et de la photonique.",
+        "titreSpecialisations":"Spécialisations :",
+        "titreCompetences":"Compétances développées :",
+        "titreDebouchesProfessionnels":"Débouchés professionnels :",
+        "titrePoursuiteEtudes":"Poursuite d'études :"
+    },
+    {
+        "competencesBtsSystemePhotonique": [
+            "Conception et réalisation de systèmes optiques : Les étudiants apprennent à concevoir et à réaliser des systèmes optiques en utilisant des composants tels que les lentilles, les prismes, les miroirs, les filtres optiques, etc. Ils maîtrisent les techniques d'alignement et de réglage des systèmes optiques pour assurer leur bon fonctionnement.",
+            "Utilisation des lasers : Les étudiants se familiarisent avec les lasers, leurs principes de fonctionnement, leurs applications et leurs différentes classes. Ils apprennent à manipuler et à utiliser les lasers en toute sécurité, ainsi qu'à configurer des systèmes laser pour des applications spécifiques.",
+            "Fibres optiques et télécommunications : Les étudiants étudient les fibres optiques, leurs caractéristiques et leurs propriétés de transmission de la lumière. Ils apprennent à installer, à connecter et à entretenir des réseaux de communication à fibres optiques, ainsi qu'à diagnostiquer et à résoudre les problèmes liés à la transmission optique.",
+            "Capteurs et instrumentation optique : Les étudiants acquièrent des compétences dans le domaine des capteurs optiques, utilisés dans des applications telles que la mesure de température, la détection de mouvement, la surveillance environnementale, etc. Ils apprennent à concevoir, à calibrer et à utiliser des capteurs optiques pour différentes applications.",
+            "Maintenance et dépannage des systèmes photoniques : Les étudiants sont formés à la maintenance préventive et corrective des systèmes photoniques. Ils apprennent à diagnostiquer les pannes, à réparer ou à remplacer les composants défectueux, et à assurer le bon fonctionnement des systèmes optiques et photoniques."
+        ]
+    },
+    {
+        "deboucheProfessionnel":[
+            "Technicien en optique/photonique : Vous pouvez travailler en tant que technicien spécialisé dans les systèmes optiques et photoniques. Vous serez responsable de la conception, de l'installation, de la maintenance et de la réparation des systèmes optiques utilisés dans différents domaines tels que l'industrie, la recherche, la santé, les télécommunications, etc.",
+            "Opérateur en fibre optique : Vous pouvez occuper un poste d'opérateur de réseau à fibre optique, en assurant l'installation, la maintenance et la gestion des réseaux de communication à fibres optiques. Vous serez responsable de l'activation des connexions, du diagnostic et de la résolution des problèmes liés à la transmission optique.",
+            "Technicien en instrumentation optique : Vous pouvez travailler dans le domaine de l'instrumentation optique, en concevant, en installant et en calibrant des instruments optiques utilisés dans les mesures et les analyses scientifiques. Vous serez responsable de la mise en place de systèmes de mesure précis et fiables.",
+            "Technico-commercial en optique/photonique : Avec des compétences techniques et une connaissance approfondie des technologies optiques et photoniques, vous pouvez travailler en tant que technico-commercial, en conseillant les clients sur les solutions adaptées à leurs besoins. Vous serez responsable de la vente de produits et de services liés à l'optique et à la photonique."
+        ]
+            
+    },
+    {
+        "optionPropose":[
+            "Le BTS Systèmes Photoniques se concentre sur les technologies optiques et photoniques. Les étudiants acquièrent des connaissances approfondies sur les principes de base de l'optique, les propriétés de la lumière, les dispositifs optiques et les applications photoniques."
+        ]
+    },
+    {
+        "id":"bts-ATI",
+        "titrePrincipal":"BTS ATI (Assistance Technique d'Ingénieur)",
+        "titrePresentationFiliere":"Présentation du BTS ATI :",
+        "textePresentationFiliere":"Le BTS Assistance Technique d'Ingénieur est une formation de niveau bac+2 qui vise à former des professionnels spécialisés dans le domaine de l'assistance technique et de l'appui aux ingénieurs. Ce programme met l'accent sur les connaissances techniques et les compétences nécessaires pour soutenir les ingénieurs dans la réalisation de projets techniques.",
+        "titreOptionBts":"Domaine d'étude :",
+        "textePoursuiteEtude":"Le BTS ATI permet également aux étudiants de poursuivre leurs études, notamment en intégrant une licence professionnelle dans le domaine de l'ingénierie, en préparant un bachelor spécialisé dans les technologies industrielles, ou en poursuivant vers un cursus d'ingénieur en génie mécanique, électrique, informatique industrielle, etc.",
+        "titreSpecialisations":"Spécialisations :",
+        "titreCompetences":"Compétances développées :",
+        "titreDebouchesProfessionnels":"Débouchés professionnels :",
+        "titrePoursuiteEtudes":"Poursuite d'études :"
+    },
+    {
+        "competencesBtsATI": [
+            "Assistance technique aux ingénieurs : Les étudiants apprennent à assister les ingénieurs dans la réalisation de projets techniques. Ils sont formés à l'analyse des besoins, à la recherche de solutions techniques, à la réalisation de calculs et de simulations, ainsi qu'à la rédaction de rapports techniques.",
+            "Conception et modélisation : Les étudiants acquièrent des compétences en conception et en modélisation de pièces mécaniques, de circuits électriques, de schémas automatisés, etc. Ils utilisent des logiciels de CAO/DAO pour réaliser des plans et des modèles 2D et 3D.",
+            "Programmation et automatisme : Les étudiants se familiarisent avec la programmation de systèmes automatisés, l'utilisation de langages de programmation tels que le langage C, les automates programmables industriels (API), les systèmes de supervision, etc.",
+            "Gestion de projet : Les étudiants apprennent les bases de la gestion de projet, y compris la planification, l'organisation, le suivi et le contrôle des projets techniques. Ils acquièrent des compétences en gestion des ressources, en établissement de budgets et en gestion des délais."
+        ]
+    },
+    {
+        "deboucheProfessionnel":[
+            "Technicien d'assistance technique : Vous pouvez travailler en tant que technicien d'assistance technique, en apportant un soutien technique aux ingénieurs sur le terrain. Vous serez responsable de la mise en place et de la maintenance des équipements, de la résolution des problèmes techniques et de l'assistance aux utilisateurs.",
+            "Technicien de bureau d'études : Vous pouvez occuper un poste de technicien au sein d'un bureau d'études, en participant à la conception et à la modélisation de projets techniques. Vous serez responsable de la réalisation des plans, des schémas et des calculs nécessaires à la réalisation des projets.",
+            "Technicien en automatisme : Vous pouvez vous spécialiser dans le domaine de l'automatisme, en travaillant sur la programmation et la mise en service de systèmes automatisés. Vous serez responsable de la configuration des automates programmables, des interfaces homme-machine, des réseaux de communication, etc.",
+            "Technicien en maintenance industrielle : Vous pouvez travailler dans le domaine de la maintenance industrielle, en assurant la maintenance préventive et corrective des équipements industriels. Vous serez responsable de la détection et de la résolution des pannes, de l'optimisation des processus de production et de la mise en place de plans de maintenance.",
+            "Technico-commercial en industrie : Avec des compétences techniques et une connaissance approfondie des produits industriels, vous pouvez travailler en tant que technico-commercial, en conseillant les clients sur les solutions techniques adaptées à leurs besoins. Vous serez responsable de la gestion des ventes, de la négociation des contrats et de la fidélisation des clients."
+        ]
+    },
+    {
+        "optionPropose":[
+            "Le BTS ATI se concentre sur les domaines techniques tels que la mécanique, l'électrotechnique, l'automatisme, l'informatique industrielle, la gestion de projet, etc. Les étudiants acquièrent des connaissances approfondies dans ces domaines et apprennent à les appliquer dans un contexte professionnel."
+        ]
+    },
+    {
+        "id":"bts-R&T",
+        "titrePrincipal":"BTS R&T (Réseaux et Télécommunications)",
+        "titrePresentationFiliere":"Présentation du BTS R&T :",
+        "textePresentationFiliere":"Le BTS Réseaux et Télécommunications est une formation de niveau bac+2 qui forme des professionnels spécialisés dans le domaine des réseaux informatiques et des télécommunications. Ce programme met l'accent sur les connaissances techniques et les compétences nécessaires pour concevoir, installer, configurer et maintenir des réseaux de communication.",
+        "titreOptionBts":"Domaine d'étude :",
+        "textePoursuiteEtude":"Le BTS R&T permet également aux étudiants de poursuivre leurs études, notamment en intégrant une licence professionnelle dans",
+        "titreSpecialisations":"Spécialisations :",
+        "titreCompetences":"Compétances développées :",
+        "titreDebouchesProfessionnels":"Débouchés professionnels :",
+        "titrePoursuiteEtudes":"Poursuite d'études :"
+    },
+    {
+        "competencesBtsRT": [
+            "Installation et configuration des réseaux : Les étudiants apprennent à installer et à configurer des équipements réseau tels que des routeurs, des commutateurs, des pare-feu, etc. Ils acquièrent des compétences en câblage, en configuration des adresses IP, en gestion des protocoles de communication, etc.",
+            "Administration des systèmes d'information : Les étudiants se familiarisent avec la gestion des systèmes d'information, y compris la gestion des serveurs, des services d'annuaire, des bases de données, etc. Ils apprennent à assurer la disponibilité, la sécurité et la performance des systèmes informatiques.",
+            "Sécurité des réseaux : Les étudiants sont formés à la sécurité des réseaux, aux techniques de cryptographie, à la détection des intrusions, à la gestion des pare-feu, etc. Ils acquièrent des compétences pour protéger les réseaux et les données contre les attaques et les menaces.",
+            "Supervision et maintenance des réseaux : Les étudiants apprennent à superviser et à maintenir les réseaux informatiques, à diagnostiquer les pannes, à effectuer des tests de performance, à mettre en place des solutions de surveillance, etc. Ils sont formés à la résolution des problèmes techniques liés aux réseaux."
+        ]
+    },
+    {
+        "deboucheProfessionnel":[
+            "Technicien réseau : Vous pouvez travailler en tant que technicien réseau, en assurant la gestion, la maintenance et la sécurité des réseaux informatiques dans les entreprises. Vous serez responsable de la configuration des équipements réseau, du dépannage des problèmes de connectivité, de l'optimisation des performances, etc.",
+            "Technicien télécoms : Vous pouvez vous spécialiser dans le domaine des télécommunications, en travaillant sur l'installation, la configuration et la maintenance des équipements de communication (centraux téléphoniques, équipements de transmission de données, etc.). Vous serez responsable de garantir la qualité et la disponibilité des services de communication.",
+            "Administrateur systèmes et réseaux : Vous pouvez occuper un poste d'administrateur systèmes et réseaux, en gérant et en surveillant les infrastructures informatiques des entreprises. Vous serez responsable de la configuration, de la sécurité et de la maintenance des serveurs, des réseaux et des systèmes d'exploitation.",
+            "Consultant en sécurité des réseaux : Avec une spécialisation en sécurité des réseaux, vous pouvez travailler en tant que consultant, en conseillant les entreprises sur les meilleures"
+        ]
+    },
+    {
+        "optionPropose":[
+            "Le BTS R&T se concentre sur les domaines des réseaux informatiques, des télécommunications et de la sécurité des données. Les étudiants acquièrent des connaissances approfondies dans ces domaines et apprennent à les appliquer dans un contexte professionnel."
+        ]
+    },
+    {
+        "id":"bts-GEII",
+        "titrePrincipal":"BTS GEII (Génie Électrique et Informatique Industrielle)",
+        "titrePresentationFiliere":"Présentation du BTS GEII :",
+        "textePresentationFiliere":"Le BTS Génie Électrique et Informatique Industrielle est une formation de niveau bac+2 qui forme des professionnels polyvalents dans les domaines de l'électricité, de l'électronique et de l'informatique industrielle. Ce programme met l'accent sur les compétences techniques nécessaires pour concevoir, installer, maintenir et dépanner des équipements électriques et électroniques.",
+        "titreOptionBts":"Domaine d'étude :",
+        "textePoursuiteEtude":"Le BTS GEII permet également aux étudiants de poursuivre leurs études, notamment en intégrant une licence professionnelle dans le domaine de l'électrotechnique, de l'électronique ou de l'informatique industrielle. Ils peuvent également choisir de poursuivre vers un cursus d'ingénieur en génie électrique ou en informatique industrielle.",
+        "titreSpecialisations":"Spécialisations :",
+        "titreCompetences":"Compétances développées :",
+        "titreDebouchesProfessionnels":"Débouchés professionnels :",
+        "titrePoursuiteEtudes":"Poursuite d'études :"
+    },
+    {
+        "competencesBtsGEII": [
+            "Électrotechnique : Les étudiants apprennent les principes de base de l'électricité, les lois et les théories de l'électrotechnique, les techniques de mesure et d'analyse des circuits électriques. Ils acquièrent également des compétences en conception et en installation de systèmes électriques.",
+            "Électronique : Les étudiants se familiarisent avec les composants électroniques, les circuits électroniques, les techniques de mesure et de test des circuits électroniques. Ils apprennent à concevoir, à assembler et à dépanner des équipements électroniques.",
+            "Automatisme et informatique industrielle : Les étudiants acquièrent des compétences en programmation d'automates, en interface homme-machine, en supervision de processus industriels, en réseaux industriels et en communication entre les différents systèmes automatisés.",
+            "Maintenance et dépannage : Les étudiants sont formés à la maintenance préventive et corrective des équipements électriques et électroniques. Ils apprennent à diagnostiquer les pannes, à remplacer les composants défectueux, à effectuer des tests de fonctionnement et à assurer la sécurité des installations."
+        ]
+    },
+    {
+        "deboucheProfessionnel":[
+            "Technicien en électrotechnique : Vous pouvez travailler en tant que technicien en électrotechnique, en réalisant l'installation, la maintenance et le dépannage des équipements électriques dans les entreprises. Vous serez responsable de garantir le bon fonctionnement des systèmes électriques et de résoudre les problèmes techniques.",
+            "Technicien en électronique industrielle : Vous pouvez occuper un poste de technicien en électronique industrielle, en assurant l'installation, la configuration et la maintenance des équipements électroniques utilisés dans les processus industriels. Vous serez responsable de la gestion des équipements électroniques et de leur intégration dans les systèmes automatisés.",
+            "Technicien en automatisme : Vous pouvez vous spécialiser dans l'automatisme, en travaillant sur la programmation et la configuration des automates programmables industriels (API), des systèmes de supervision et de contrôle des processus industriels. Vous serez responsable de l'optimisation des processus et de l'amélioration de la productivité.",
+            "Technicien en informatique industrielle : Vous pouvez vous orienter vers l'informatique industrielle, en assurant la gestion des réseaux industriels, la configuration des serveurs, des bases de données et des systèmes d'exploitation utilisés dans les environnements industriels. Vous serez responsable de la sécurisation et de la disponibilité des données."
+        ]
+    },
+    {
+        "optionPropose":[
+            "Le BTS GEII couvre les domaines de l'électrotechnique, de l'électronique et de l'informatique industrielle. Les étudiants acquièrent des connaissances approfondies dans ces domaines et apprennent à les appliquer dans un contexte professionnel."
+        ]
     }
-
 ]
