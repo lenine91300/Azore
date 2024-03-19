@@ -1,65 +1,8 @@
 const reponse = await fetch('donnee.json');
 const donneeRecu = await reponse.json();
 
-// const titrePrincipal = document.getElementById('titrePrincipal');
-//   titrePrincipal.innerText=donneeRecu[4].titrePrincipal;
+// Affichage si Clique sur bouton BTS SIO
 
-
-//   const titrePresentationFiliere= document.getElementById('titreFiliere');
-//   titrePresentationFiliere.innerText=donneeRecu[4].titrePresentationFiliere;
-
-//   const textePresentationFiliere = document.getElementById('textPresentation');
-//   textePresentationFiliere.innerText = donneeRecu[4].textePresentationFiliere;
-  
-
-//   const titreSpecialisations = document.getElementById('titreSpecialisations');
-//   titreSpecialisations.innerText=donneeRecu[4].titreSpecialisations;
-  
-//   const titreCompetences = document.getElementById('titreCompetences');
-//   titreCompetences.innerText = donneeRecu[4].titreCompetences;
-
-//   const titreDebouchesProfessionnels = document.getElementById('titreDebouchesProfessionnels');
-//   titreDebouchesProfessionnels.innerText=donneeRecu[4].titreDebouchesProfessionnels;
-
-//   const titrePoursuiteEtudes = document.getElementById('titrePoursuiteEtudes');
-//   titrePoursuiteEtudes.innerText=donneeRecu[4].titrePoursuiteEtudes;
-
-
-//   const optionPopose = document.getElementById('optionPoposeList');
-//   optionPopose.innerHTML = ''; // Réinitialiser le contenu de la liste
-  
-//   donneeRecu[7].optionPropose.forEach(function(afficher){
-//     const afficherLi = document.createElement('li');
-//     afficherLi.innerText = afficher;
-//     optionPopose.appendChild(afficherLi);
-//   });
-  
-
-//   const competanceList = document.getElementById('competanceList');
-//   competanceList.innerHTML='';
-//   const competences = donneeRecu[5].competencesBtsSIO;
-  
-//   competences.forEach(function(competence) {
-//     const li = document.createElement('li');
-//     li.innerText = competence;
-//     competanceList.appendChild(li);
-//   });
-  
-//   const deboucheProfessionnelList = document.getElementById("deboucheProfessionnelList")
-//   deboucheProfessionnelList.innerHTML='';
-//   const deboucheProfessionnel = donneeRecu[6].deboucheProfessionnel;
-  
-//   deboucheProfessionnel.forEach(function(debouche){
-//     const liste = document.createElement('li');
-//     liste.innerText = debouche;
-//     deboucheProfessionnelList.appendChild(liste);
-//   });
-  
-//   const textePoursuiteEtude = document.getElementById('textePoursuiteEtude');
-//   textePoursuiteEtude.innerText=donneeRecu[4].textePoursuiteEtude;
-
-
-// BTS SIO
 function afficherBtsSIO(){
   
   const titrePrincipal = document.getElementById('titrePrincipal');
@@ -115,22 +58,33 @@ function afficherBtsSIO(){
     liste.innerText = debouche;
     deboucheProfessionnelList.appendChild(liste);
   });
-  
-  const textePoursuiteEtude = document.getElementById('textePoursuiteEtude');
-  textePoursuiteEtude.innerText=donneeRecu[4].textePoursuiteEtude;
-}
 
+  // Afficher les liste des établissements 
+
+  const ulElement = document.createElement("ul");
+  const nomEtablissement = donneeRecu[32].etablissementBtsSio;
+  console.log(nomEtablissement);
+  nomEtablissement.forEach(function(nomEtablissement){
+    const li = document.createElement("li");
+    li.innerText = nomEtablissement.nom;
+    ulElement.appendChild(li);
+  });
+
+  const affichageListeEtablissment = document.getElementById("Etablissement");
+  affichageListeEtablissment.appendChild(ulElement);
+  
+}
 const boutonBtsSIO = document.getElementById('btnSIO');
 boutonBtsSIO.addEventListener('click',afficherBtsSIO)
 // ----------------------BTS
 
-// BTS SN
+
+// Affichage si Clique sur bouton BTS SN
 
 function afficherBtsSN(){
-  
+
   const titrePrincipal = document.getElementById('titrePrincipal');
   titrePrincipal.innerText=donneeRecu[0].titrePrincipal;
-
 
   const titrePresentationFiliere= document.getElementById('titreFiliere');
   titrePresentationFiliere.innerText=donneeRecu[0].titrePresentationFiliere;
@@ -150,7 +104,6 @@ function afficherBtsSN(){
 
   const titrePoursuiteEtudes = document.getElementById('titrePoursuiteEtudes');
   titrePoursuiteEtudes.innerText=donneeRecu[0].titrePoursuiteEtudes;
-
 
   const optionPopose = document.getElementById('optionPoposeList');
   optionPopose.innerHTML = ''; // Réinitialiser le contenu de la liste
@@ -189,11 +142,7 @@ function afficherBtsSN(){
 const boutonBtsSN = document.getElementById('btnSN');
 boutonBtsSN.addEventListener('click',afficherBtsSN)
 
-
-
-
-
-// BTS FED
+// Affichage si Clique sur bouton BTS FED
 function afficherBtsFED(){
   
   const titrePrincipal = document.getElementById('titrePrincipal');
@@ -259,7 +208,7 @@ boutonBtsFED.addEventListener('click',afficherBtsFED)
 
 // ------------------------------------------------------------
 
-// BTS AudioVisuel
+// Affichage si Clique sur bouton BTS AudioVisuel
 function afficherBtsAudioVisuel(){
   
   const titrePrincipal = document.getElementById('titrePrincipal');
@@ -323,7 +272,7 @@ function afficherBtsAudioVisuel(){
 const boutonBtsAudiovisuel = document.getElementById('btnMetierAudiovisuelle');
 boutonBtsAudiovisuel.addEventListener('click',afficherBtsAudioVisuel)
 
-// BTS AudioVisuel
+// Affichage si Clique sur bouton BTS AudioVisuel
 function afficherBtsSystemePhotonique(){
   
   const titrePrincipal = document.getElementById('titrePrincipal');
@@ -387,7 +336,7 @@ function afficherBtsSystemePhotonique(){
 const boutonBtsSystemePhotonique = document.getElementById('btnSP');
 boutonBtsSystemePhotonique.addEventListener('click',afficherBtsSystemePhotonique)
 
-// BTS ATI
+// Affichage si Clique sur bouton BTS ATI
 function afficherBtsATI(){
   
   const titrePrincipal = document.getElementById('titrePrincipal');
@@ -417,7 +366,7 @@ function afficherBtsATI(){
   const optionPopose = document.getElementById('optionPoposeList');
   optionPopose.innerHTML = ''; // Réinitialiser le contenu de la liste
   
-  donneeRecu[19].optionPropose.forEach(function(afficher){
+  donneeRecu[23].optionPropose.forEach(function(afficher){
     const afficherLi = document.createElement('li');
     afficherLi.innerText = afficher;
     optionPopose.appendChild(afficherLi);
@@ -453,7 +402,7 @@ boutonBtsATI.addEventListener('click',afficherBtsATI)
 
 // -----------BUT
 
-// BTS RT
+// Affichage si Clique sur bouton BTS RT
 function afficherBtsRT(){
   
   const titrePrincipal = document.getElementById('titrePrincipal');
@@ -518,7 +467,7 @@ const boutonBtsRT = document.getElementById('btsRT');
 boutonBtsRT.addEventListener('click',afficherBtsRT)
 
 
-// BTS GEII
+// Affichage si Clique sur bouton BTS GEII
 function afficherBtsGEII(){
   
   const titrePrincipal = document.getElementById('titrePrincipal');
@@ -569,7 +518,7 @@ function afficherBtsGEII(){
   deboucheProfessionnelList.innerHTML='';
   const deboucheProfessionnel = donneeRecu[30].deboucheProfessionnel;
   
-  deboucheProfessionnel.forEach(function(debouche){
+   deboucheProfessionnel.forEach(function(debouche){
     const liste = document.createElement('li');
     liste.innerText = debouche;
     deboucheProfessionnelList.appendChild(liste);

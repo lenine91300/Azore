@@ -10,16 +10,18 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     </head>
     <body>
+        <!-- Partie header -->
+
         <header>
             <br>
-            <!-- Quel -->
             <h1>Quelle poursuite d'étude après un bac pro Système Numérique ?</h1>
-            <p>Après avoir obtenu un bac pro Système Numérique, vous avez la possibilité de poursuivre votre parcours d'études avec diverses options. Voici quelques voies envisageables :</p>
         </header>
         <main>
+            
+        <!-- Partie navigation -->
+
             <section id="SectionNav">
                 <nav>
-                    <!-- Mettre un titre pour le h2 -->
                     <h2>BTS</h2>
                     <div id="button">
                         <button id="btnSIO">BTS SIO</button>
@@ -36,38 +38,57 @@
                     <button id="btnGEII">BUT GEII</button>
                 </nav>
             </section>
-            <section id="sectionContenue">
-                <header>
-                    <h2 id="titrePrincipal"></h2>
-                </header>
-                <div id="divPresentation">
-                    <h3 id="titreFiliere"></h3>
-                    <p id="textPresentation"></p>
-                </div>
-                <!-- <p id="information">Sélectionner une poursuite d'étude au choix</p> -->
-                <!-- -----------------Zone d'intervention ----------------------- -->
-                <div id="divSpecialisation">
-                    <h3 id="titreSpecialisations"></h3>
-                    <h4 id="titreOptionBts"></h4>
-                    <ul id="optionPoposeList">
 
-                    </ul>
-                </div>
-                <!-- ----------------------------------------------------------- -->
-                <div id="competance">
-                    <h3 id="titreCompetences"></h3>
-                    <ul id="competanceList"></ul>
-                </div>
-                <div  id="deboucheProfessionnel">
-                    <h3 id="titreDebouchesProfessionnels"></h3>
-                    <ul id="deboucheProfessionnelList"></ul>
-                </div>
-                
-                <div id="poursuiteEtude">
-                    <h3 id="titrePoursuiteEtudes"></h3>
-                    <p id="textePoursuiteEtude"></p>
-                </div>
-                <!-- Faire en sorte que après le mot bts (le nom de la filière qu"on à choisie s'affiche) --> 
+        <!-- Partie contenu de la page -->
+            
+            <header>
+                <h2 id="titrePrincipal"></h2>
+            </header>
+
+            <section id="sectionContenuePrincipal">
+
+
+                <article id="sectionContenue">
+                    <div id="divPresentation">
+                        <h3 id="titreFiliere"></h3>
+                        <p id="textPresentation"></p>
+                    </div>
+                    <div id="divSpecialisation">
+                        <h3 id="titreSpecialisations"></h3>
+                        <h4 id="titreOptionBts"></h4>
+                        <ul id="optionPoposeList">
+                        </ul>
+                    </div>
+                    <div id="competance">
+                        <h3 id="titreCompetences"></h3>
+                        <ul id="competanceList"></ul>
+                    </div>
+                    <div  id="deboucheProfessionnel">
+                        <h3 id="titreDebouchesProfessionnels"></h3>
+                        <ul id="deboucheProfessionnelList"></ul>
+                    </div>
+                    
+                    <div id="poursuiteEtude">
+                        <h3 id="titrePoursuiteEtudes"></h3>
+                        <p id="textePoursuiteEtude"></p>
+                    </div>
+                </article>
+
+
+                <!-- Partie information complémentaire sur les établissement -->
+                <aside>
+                    <h3>Liste des établissements qui proposent ces options :</h3>
+                    <div id="Etablissement">
+
+                        <!-- Le ul du dessous sera finalement créer avec le JS -->
+                        <!-- <ul id="listeEtablissement"></ul> -->
+                    </div>
+                </aside>
+                <!-- <aside id="SectionContenueComplementaire">
+                    <h3>Les lycée qui proposent ces options</h3>
+                    <ul id="listLycee"></ul>l
+                    <div id="informationLycee"></div>
+                </aside>         -->
             </section>
         </main>
     </body>

@@ -7,7 +7,7 @@
         "titreOptionBts":"Le BTS SN se divise en deux options principales",
         "textePoursuiteEtude":"Le BTS SN permet également aux étudiants de poursuivre leurs études, notamment en intégrant une licence professionnelle en électronique, en informatique ou en télécommunications, en préparant un bachelor ou en poursuivant vers un cursus d'ingénieur dans le domaine des systèmes numériques.",
         "titreSpecialisations":"Spécialisations :",
-        "titreCompetences":"Compétances développées :",
+        "titreCompetences":"Compétences développées :",
         "titreDebouchesProfessionnels":"Débouchés professionnels :",
         "titrePoursuiteEtudes":"Poursuite d'études :"
     },
@@ -45,7 +45,7 @@
         "titreOptionBts":"Le BTS SIO propose deux spécialisations :",
         "textePoursuiteEtude":"Le BTS SIO permet également aux étudiants de poursuivre leurs études, notamment en intégrant une licence professionnelle en informatique, en préparant un bachelor ou en poursuivant vers un cursus d'ingénieur en informatique.",
         "titreSpecialisations":"Spécialisations :",
-        "titreCompetences":"Compétances développées :",
+        "titreCompetences":"Compétences développées :",
         "titreDebouchesProfessionnels":"Débouchés professionnels :",
         "titrePoursuiteEtudes":"Poursuite d'études :"
     },
@@ -84,7 +84,7 @@
         "titreOptionBts":"Le BTS FED se concentre sur les aspects suivants :",
         "textePoursuiteEtude":"Le BTS FED offre de nombreuses possibilités de poursuites d'études. Vous pouvez envisager d'intégrer une licence professionnelle spécialisée en électronique, informatique ou télécommunications. Vous avez également la possibilité de préparer un bachelor ou de poursuivre vers un cursus d'ingénieur dans le domaine des systèmes numériques. Ces choix vous permettront d'approfondir vos connaissances et de vous spécialiser davantage, ouvrir de nouvelles opportunités de carrière dans le secteur des installations techniques du bâtiment.",
         "titreSpecialisations":"Spécialisations :",
-        "titreCompetences":"Compétances développées :",
+        "titreCompetences":"Compétences développées :",
         "titreDebouchesProfessionnels":"Débouchés professionnels :",
         "titrePoursuiteEtudes":"Poursuite d'études :"
     },
@@ -123,7 +123,7 @@
         "titreOptionBts":"Le BTS Audiovisuel se divise en plusieurs options ou spécialités :",
         "textePoursuiteEtude":"Le BTS Audiovisuel permet également aux étudiants de poursuivre leurs études, notamment en intégrant une licence professionnelle en audio",
         "titreSpecialisations":"Spécialisations :",
-        "titreCompetences":"Compétances développées :",
+        "titreCompetences":"Compétences développées :",
         "titreDebouchesProfessionnels":"Débouchés professionnels :",
         "titrePoursuiteEtudes":"Poursuite d'études :"
     },
@@ -163,7 +163,7 @@
         "titreOptionBts":"Domaine d'étude :",
         "textePoursuiteEtude":"Le BTS Systèmes Photoniques permet également aux étudiants de poursuivre leurs études, notamment en intégrant une licence professionnelle en optique, en photonique ou en télécommunications, en préparant un bachelor spécialisé dans les technologies optiques, ou en poursuivant vers un cursus d'ingénieur dans le domaine de l'optique et de la photonique.",
         "titreSpecialisations":"Spécialisations :",
-        "titreCompetences":"Compétances développées :",
+        "titreCompetences":"Compétences développées :",
         "titreDebouchesProfessionnels":"Débouchés professionnels :",
         "titrePoursuiteEtudes":"Poursuite d'études :"
     },
@@ -197,8 +197,8 @@
         "textePresentationFiliere":"Le BTS Assistance Technique d'Ingénieur est une formation de niveau bac+2 qui vise à former des professionnels spécialisés dans le domaine de l'assistance technique et de l'appui aux ingénieurs. Ce programme met l'accent sur les connaissances techniques et les compétences nécessaires pour soutenir les ingénieurs dans la réalisation de projets techniques.",
         "titreOptionBts":"Domaine d'étude :",
         "textePoursuiteEtude":"Le BTS ATI permet également aux étudiants de poursuivre leurs études, notamment en intégrant une licence professionnelle dans le domaine de l'ingénierie, en préparant un bachelor spécialisé dans les technologies industrielles, ou en poursuivant vers un cursus d'ingénieur en génie mécanique, électrique, informatique industrielle, etc.",
-        "titreSpecialisations":"Spécialis   ations :",
-        "titreCompetences":"Compétances développées :",
+        "titreSpecialisations":"Spécialisations :",
+        "titreCompetences":"Compétences développées :",
         "titreDebouchesProfessionnels":"Débouchés professionnels :",
         "titrePoursuiteEtudes":"Poursuite d'études :"
     },
@@ -232,7 +232,7 @@
         "titreOptionBts":"Domaine d'étude :",
         "textePoursuiteEtude":"Le BTS R&T permet également aux étudiants de poursuivre leurs études, notamment en intégrant une licence professionnelle dans",
         "titreSpecialisations":"Spécialisations :",
-        "titreCompetences":"Compétances développées :",
+        "titreCompetences":"Compétences développées :",
         "titreDebouchesProfessionnels":"Débouchés professionnels :",
         "titrePoursuiteEtudes":"Poursuite d'études :"
     },
@@ -265,7 +265,7 @@
         "titreOptionBts":"Domaine d'étude :",
         "textePoursuiteEtude":"Le BTS GEII permet également aux étudiants de poursuivre leurs études, notamment en intégrant une licence professionnelle dans le domaine de l'électrotechnique, de l'électronique ou de l'informatique industrielle. Ils peuvent également choisir de poursuivre vers un cursus d'ingénieur en génie électrique ou en informatique industrielle.",
         "titreSpecialisations":"Spécialisations :",
-        "titreCompetences":"Compétances développées :",
+        "titreCompetences":"Compétences développées :",
         "titreDebouchesProfessionnels":"Débouchés professionnels :",
         "titrePoursuiteEtudes":"Poursuite d'études :"
     },
@@ -288,6 +288,20 @@
     {
         "optionPropose":[
             "Le BTS GEII couvre les domaines de l'électrotechnique, de l'électronique et de l'informatique industrielle. Les étudiants acquièrent des connaissances approfondies dans ces domaines et apprennent à les appliquer dans un contexte professionnel."
+        ]
+    },
+    {
+        "etablissementBtsSio":[
+            {
+                "nom":"Lycée privé Charles de Foucauld Paris 75018",
+                "adresse":"5 Rue de la Madone, 75018 Paris",
+                "siteWeb":"https://www.lamadone.fr/"
+            },
+            {
+                "nom":"Lycée de l'Hautil (Jouy-le-Moutier 95280)",
+                "adresse":"1 Rue Gabriel Fauré, 95280 Jouy-le-Moutier",
+                "siteWeb":""
+            }
         ]
     }
 ]
